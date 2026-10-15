@@ -1,0 +1,5 @@
+# Keep Markdown documentation and Git ignore configuration LF-normalized.
+*.md text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

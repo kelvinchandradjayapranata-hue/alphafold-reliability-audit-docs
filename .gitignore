@@ -1,0 +1,58 @@
+# === Konfigurasi lokal & kredensial — jangan pernah di-commit ===
+.claude/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credential*
+*secret*
+*token*
+
+# === Virtual environment & cache ===
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === Data & hasil eksperimen (belum diotorisasi publikasi) ===
+data/
+results/
+runs/
+outputs/
+*.fasta
+*.fa
+*.pdb
+*.cif
+*.csv
+*.tsv
+*.gz
+*.zip
+*.tar*
+
+# === Editor/OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.log
+
+# === Data lokal & artefak kerja — dikecualikan dari publikasi (ditambahkan 2026-10-15) ===
+# Alasan per butir: docs/PUBLICATION_STATUS.md §5.
+# Aturan ini TIDAK menghapus apa pun — hanya mencegah ikut ter-commit tanpa keputusan eksplisit.
+# Data lokal besar (3.669 berkas/23,30 GiB sebelumnya TIDAK tertutup pola lain); bukan bagian proyek:
+Downloads/
+# Artefak kerja studi kasus (CIF/CSV sudah tertutup pola di atas; JSON/manifest/README belum).
+# Publikasi artefak turunan di masa depan menuntut keputusan terpisah (keputusan A-3):
+artifacts/
+# Draft spesifikasi operasional C-2 — publikasi menunggu keputusan pemilik O1–O6:
+docs/C2_OPERATIONAL_SPEC_DRAFT.md
+# Aset gambar dengan sumber/lisensi belum terdokumentasi di repositori:
+image/Protein Structure Analysis Dashboard.png
+
+# Catatan: docs/*.md SENGAJA tidak diabaikan — dokumentasi adalah isi repositori ini.

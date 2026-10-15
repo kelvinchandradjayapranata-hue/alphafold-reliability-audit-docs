@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Jika Anda merujuk repositori ini, gunakan metadata sitasi berikut."
+title: "AlphaFold Reliability Audit"
+abstract: "Dokumentasi tata kelola, kebijakan, dan protokol praregistrasi untuk audit reliabilitas metodologi riset berbasis AlphaFold: kalibrasi indikator pLDDT/PAE model AlphaFold DB terhadap error struktural terukur. Repositori ini bersifat protokol/metodologi — tidak memuat hasil eksperimen, data, atau sekuens protein."
+type: misc
+version: "0.1.0"
+authors:
+  - family-names: "Djayapranata"
+    given-names: "Kelvin Chandra"
+repository-code: "https://github.com/kelvinchandradjayapranata-hue/alphafold-reliability-audit-docs"
+license: "CC-BY-4.0"
